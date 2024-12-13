@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>curly petshop|پت شاپ فرفری</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/petshop/logo1-petshop.svg" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- Icons -->
+    <link
+      href="css/materialdesignicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!-- Slider -->
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <!-- Main Css -->
+    <link
+      href="css/style.min.css"
+      rel="stylesheet"
+      type="text/css"
+      id="theme-opt"
+    />
+    <link href="css/colors/default.css" rel="stylesheet" id="color-opt" />
+    <link rel="stylesheet" href="css/index-example.css" />
+  </head>
+  <body>
+    <!-- Loader -->
+    <div id="preloader">
+      <div id="status">
+        <div class="spinner text">
+          <div class="double-bounce1"></div>
+          <div class="double-bounce2"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader -->
+    <!-- Navbar STart -->
+    <header id="topnav" class="defaultscroll sticky">
+      <div class="container">
+        <!-- Logo container-->
+        <div>
+          <a class="logo" href="curly-petshop.html">
+            <img
+              src="images/petshop/logo1-petshop.svg"
+              class="logo-image"
+              alt="logo-image"
+            />
+            <span>Curly PetShop</span>
+          </a>
+        </div>
+        <ul class="buy-button list-inline mb-0">
+          <li class="list-inline-item mb-0">
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-link text-decoration-none dropdown-toggle p-0 pe-2"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="uil uil-search h4"></i>
+              </button>
+              <div
+                class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-0"
+                style="width: 300px"
+              >
+                <form>
+                  <input
+                    type="text"
+                    id="text"
+                    name="name"
+                    class="form-control search-box"
+                    placeholder="جستجو..."
+                  />
+                </form>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mb-0 pe-1">
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-icon button-icon dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="uil uil-shopping-cart align-middle icons"></i>
+              </button>
+              <div
+                class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 p-4"
+                style="width: 300px"
+              >
+                <div class="pb-4">
+                  <a
+                    href="javascript:void(0)"
+                    class="d-flex align-items-center"
+                  >
+                    <img
+                      src="images/petshop/kala2.jpg"
+                      class="shadow rounded"
+                      style="max-height: 64px"
+                      alt=""
+                    />
+                    <div class="flex-1 text-start ms-3">
+                      <h6 class="text-dark mb-0">درخت گربه بیسکویت نیناپت</h6>
+                      <p class="text-muted mb-0">۳,۳۹۹,۰۰۰ تومان</p>
+                    </div>
+                  </a>
+
+                  <a
+                    href="javascript:void(0)"
+                    class="d-flex align-items-center mt-4"
+                  >
+                    <img
+                      src="images/petshop/kala1.jpg"
+                      class="shadow rounded"
+                      style="max-height: 64px"
+                      alt=""
+                    />
+                    <div class="flex-1 text-start ms-3">
+                      <h6 class="text-dark mb-0">
+                        برس و ماساژور بخار حیوانات Spray Massage Brush
+                      </h6>
+                      <p class="text-muted mb-0">۲۹۹,۰۰۰ تومان</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div
+                  class="d-flex align-items-center justify-content-between pt-4 border-top"
+                >
+                  <h6 class="text-dark mb-0">مجموع (تومان):</h6>
+                  <h6 class="text-dark mb-0">3,698,000 تومان</h6>
+                </div>
+
+                <div class="mt-3 text-center">
+                  <a href="javascript:void(0)" class="btn button-kala-1 me-2"
+                    >نمایش سبد خرید
+                  </a>
+                  <a href="javascript:void(0)" class="btn button-kala-2"
+                    >پرداخت
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mb-0 pe-1">
+            <a
+              href="#"
+              class="btn btn-icon button-icon"
+              data-bs-toggle="modal"
+              data-bs-target="#wishlist"
+              ><i class="uil uil-heart align-middle icons"></i
+            ></a>
+          </li>
+          <li class="list-inline-item mb-0">
+            <div class="dropdown">
+              <button
+                type="button"
+                class="btn btn-icon button-icon dropdown-toggle"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="uil uil-user align-middle icons"></i>
+              </button>
+              <div
+                class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow rounded border-0 mt-3 py-3"
+                style="width: 200px"
+              >
+                <a
+                  class="dropdown-item dropdown-user"
+                  href="curly-petshop-login.html"
+                  ><i class="uil uil-user align-middle me-1"></i> حساب کاربری</a
+                >
+                <a
+                  class="dropdown-item dropdown-user"
+                  href="curly-petshop-submit.html"
+                  ><i class="uil uil-clipboard-notes align-middle me-1"></i> ثبت
+                  نام
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <!--end login button-->
+        <!-- End Logo container-->
+        <div class="menu-extras">
+          <div class="menu-item">
+            <!-- Mobile menu toggle-->
+            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+              <div class="lines">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </a>
+            <!-- End mobile menu toggle-->
+          </div>
+        </div>
+
+        <div id="navigation">
+          <!-- Navigation Menu-->
+          <ul class="navigation-menu">
+            <li>
+              <a href="curly-petshop.html" class="sub-menu-item">خانه</a>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">گربه</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> غذای گربه </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="curly-drycatfood.html" class="sub-menu-item">
+                        غذای خشک گربه
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> کنسرو گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">پوچ گربه </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> لوازم نگهداری گربه </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> خاک گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> ظرف خاک گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">ظرف خاک گربه </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> سلامتی گربه </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item">
+                        مکمل و ویتامین گربه
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> انواع اسپری گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">انواع قطره گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">کرم دست و پای گربه </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> آرایشی و بهداشتی گربه</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> ناخن گیر گربه </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">
+                        پد زیرانداز بهداشتی گربه
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"
+                        >شامپو و نرم کننده گربه
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"
+                        >مسواک و خمیر دندان گربه
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">سگ</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> غذای سگ </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> غذای خشک سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> غذای تر سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">غذای درمانی سگ </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> لوازم نگهداری سگ </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> اسباب بازی سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> باکس حمل و نقل سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">قلاده سگ </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> سلامتی سگ </a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> مکمل و ویتامین سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"> انواع اسپری سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">انواع قطره سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">کرم دست و پای سگ </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)"> آرایشی و بهداشتی سگ</a
+                  ><span class="submenu-arrow"></span>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="sub-menu-item"> ناخن گیر سگ </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item">
+                        پد زیرانداز بهداشتی سگ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"
+                        >شامپو و نرم کننده سگ
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="sub-menu-item"
+                        >مسواک و خمیر دندان سگ
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="javascript:void(0)">خدمات</a
+              ><span class="menu-arrow"></span>
+              <ul class="submenu">
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)">خدمات دامپزشکی </a>
+                </li>
+                <li class="has-submenu parent-menu-item">
+                  <a href="javascript:void(0)">آتلیه عکاسی </a>
+                </li>
+              </ul>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="cruly-petshop-blog.html">بلاگ</a>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="curly-petshop-about-us.html">درباره ما</a>
+            </li>
+            <li class="has-submenu parent-parent-menu-item">
+              <a href="curly-petshop-contact-us.html">تماس با ما</a>
+            </li>
+          </ul>
+
+          <!--end navigation menu-->
+          <!--end login button-->
+        </div>
+        <!--end navigation-->
+      </div>
+      <!--end container-->
+    </header>
+    <!--end header-->
+    <!-- Navbar End -->
+    <!-- start-main -->
+    <main>
+      <!-- Hero Start -->
+      <section
+        class="bg-half bg-light d-table w-100"
+        style="
+          background-image: url(images/petshop/logo1-petshop.svg);
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-attachment: fixed;
+        "
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-12 text-center">
+              <div class="page-next-level">
+                <h4 class="title color1">غذای خشک گربه</h4>
+                <div class="page-next">
+                  <nav aria-label="breadcrumb" class="d-inline-block">
+                    <ul class="breadcrumb bg-white rounded shadow mb-0">
+                      <li class="breadcrumb-item">
+                        <a href="index.html">صفحه اصلی </a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#">گربه</a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href="#">غذای گربه</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        <span class="color">غذای خشک گربه</span>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </section>
+      <!--end section-->
+      <div class="position-relative">
+        <div class="shape overflow-hidden text-white">
+          <svg
+            viewBox="0 0 2880 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <!-- Hero End -->
+
+      <!-- Start Products -->
+      <section class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-12">
+              <div class="card border-0 sidebar sticky-bar">
+                <div class="card-body p-0">
+                  <!-- SEARCH -->
+                  <div class="widget">
+                    <form role="search" method="get">
+                      <div class="input-group mb-3 border rounded">
+                        <input
+                          type="text"
+                          id="s"
+                          name="s"
+                          class="form-control border-0"
+                          placeholder="جستجوی کلمه کلیدی..."
+                        />
+                        <button
+                          type="submit"
+                          class="input-group-text bg-white border-0"
+                          id="searchsubmit"
+                        >
+                          <i class="uil uil-search"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- SEARCH -->
+
+                  <!-- Categories -->
+                  <div class="widget mt-4 pt-2">
+                    <h5 class="widget-title color1">دسته بندیها</h5>
+                    <ul class="list-unstyled mt-4 mb-0 blog-categories">
+                      <li><a href="jvascript:void(0)">غذای گربه </a></li>
+                      <li>
+                        <a href="jvascript:void(0)">لوازم نگهداری گربه </a>
+                      </li>
+                      <li><a href="jvascript:void(0)">سلامتی گربه </a></li>
+                      <li>
+                        <a href="jvascript:void(0)">آرایشی و بهداشتی گربه </a>
+                      </li>
+                      <li><a href="jvascript:void(0)">غذای سگ </a></li>
+                      <li><a href="jvascript:void(0)">لوازم نگهداری سگ </a></li>
+                      <li><a href="jvascript:void(0)">سلامتی سگ </a></li>
+                      <li>
+                        <a href="jvascript:void(0)">آرایشی و بهداشتی سگ </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Categories -->
+
+                  <!-- Top Products -->
+                  <div class="widget mt-4 pt-2">
+                    <h5 class="widget-title color1">محصولات برتر</h5>
+                    <ul class="list-unstyled mt-4 mb-0">
+                      <li class="d-flex align-items-center">
+                        <a href="javascript:void(0)">
+                          <img
+                            src="images/petshop/product-cat-1.webp"
+                            class="img-fluid avatar avatar-small rounded shadow"
+                            style="height: auto"
+                            alt=""
+                          />
+                        </a>
+                        <div class="flex-1 content ms-3">
+                          <a href="javascript:void(0)" class="color1 h6"
+                            >غذای خشک درمانی گربه هیلز
+                          </a>
+                          <h6 class="color small fst-italic mb-0 mt-1">
+                            18000 تومان
+                            <del class="text-danger ms-2">2,940,000 تومان</del>
+                          </h6>
+                        </div>
+                      </li>
+                      <li class="d-flex align-items-center mt-2">
+                        <a href="javascript:void(0)">
+                          <img
+                            src="images/petshop/product-cat-2.webp"
+                            class="img-fluid avatar avatar-small rounded shadow"
+                            style="height: auto"
+                            alt=""
+                          />
+                        </a>
+                        <div class="flex-1 content ms-3">
+                          <a href="javascript:void(0)" class="color1 h6"
+                            >غذای خشک رژیمی گربه هیلز
+                          </a>
+                          <h6 class="color small fst-italic mb-0 mt-1">
+                            3,170,000 تومان
+                          </h6>
+                        </div>
+                      </li>
+                      <li class="d-flex align-items-center mt-2">
+                        <a href="javascript:void(0)">
+                          <img
+                            src="images/petshop/product-cat-3.webp"
+                            class="img-fluid avatar avatar-small rounded shadow"
+                            style="height: auto"
+                            alt=""
+                          />
+                        </a>
+                        <div class="flex-1 content ms-3">
+                          <a href="javascript:void(0)" class="color1 h6"
+                            >غذای خشک درمانی مونژ
+                          </a>
+                          <h6 class="color small fst-italic mb-0 mt-1">
+                            2,200,000 تومان
+                          </h6>
+                        </div>
+                      </li>
+                      <li class="d-flex align-items-center mt-2">
+                        <a href="javascript:void(0)">
+                          <img
+                            src="images/petshop/product-cat-4.webp"
+                            class="img-fluid avatar avatar-small rounded shadow"
+                            style="height: auto"
+                            alt=""
+                          />
+                        </a>
+                        <div class="flex-1 content ms-3">
+                          <a href="javascript:void(0)" class="color1 h6"
+                            >غذای خشک روزانه گربه مفید
+                          </a>
+                          <h6 class="color small fst-italic mb-0 mt-1">
+                            18000 تومان
+                            <del class="text-danger ms-2">1,515,000 تومان</del>
+                          </h6>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--end col-->
+
+            <div class="col-lg-9 col-md-8 col-12 mt-5 pt-2 mt-sm-0 pt-sm-0">
+              <div class="row align-items-center">
+                <div class="col-lg-8 col-md-7">
+                  <div class="section-title">
+                    <h5 class="mb-0">نمایش 1-9 از 47 نتیجه</h5>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <div class="col-lg-4 col-md-5 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                  <div
+                    class="d-flex justify-content-md-between align-items-center"
+                  >
+                    <div class="form custom-form">
+                      <div class="mb-0">
+                        <select
+                          class="form-select form-control color"
+                          aria-label="Default select example"
+                          id="Sortbylist-job"
+                        >
+                          <option selected>مرتب سازی بر اساس آخرین</option>
+                          <option>مرتب سازی بر اساس محبوبیت</option>
+                          <option>مرتب سازی بر اساس رتبه بندی</option>
+                          <option>مرتب سازی بر اساس قیمت: کم به زیاد</option>
+                          <option>مرتب سازی بر اساس قیمت: زیاد به کم</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mx-2">
+                      <a href="curly-drycatfood.html" class="h5 text-muted"
+                        ><i class="uil uil-apps color3"></i
+                      ></a>
+                    </div>
+
+                    <div>
+                      <a href="curly-drycatfood-list.html" class="h5 text-muted"
+                        ><i class="uil uil-list-ul color3"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+              </div>
+              <!--end row-->
+
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <ul class="label list-unstyled mb-0">
+                      <li>
+                        <a
+                          href="javascript:void(0)"
+                          class="badge badge-link rounded-pill bg-success"
+                          >ویژه ها
+                        </a>
+                      </li>
+                    </ul>
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-1.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک درمانی گربه هیلز مراقبت از کلیه با طعم مرغ
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          2,940,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-2.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک رژیمی گربه هیلز
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          3,170,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-3.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک درمانی مونژ
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          2,200,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-4.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک روزانه گربه مفید
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          1,515,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-5.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک گربه بد غذا
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="text-muted small fst-italic mb-0 mt-1">
+                          <del>13,500,000 تومان</del><br /><ins
+                            class="color text-decoration-none"
+                            >11,900 تومان</ins
+                          >
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-6.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای درمانی گربه مونژ
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          2,300,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-7.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک درمانی گربه هیلز
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          3,040,000 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-8.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک درمانی گربه هیلز
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          2,960,00 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+                <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                  <div class="card shop-list border-0 position-relative">
+                    <div
+                      class="shop-image position-relative overflow-hidden rounded shadow"
+                    >
+                      <a href="curly-drycatfood-product-1.html"
+                        ><img
+                          src="images/petshop/product-cat-9.webp"
+                          class="img-fluid"
+                          alt=""
+                      /></a>
+                      <ul class="list-unstyled shop-icons">
+                        <li>
+                          <a
+                            href="javascript:void(0)"
+                            class="btn btn-icon btn-pills btn-soft-danger"
+                            ><i data-feather="heart" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="javascript:void(0)"
+                            data-bs-toggle="modal"
+                            data-bs-target="#productview"
+                            class="btn btn-icon btn-pills btn-soft-primary"
+                            ><i data-feather="eye" class="icons"></i
+                          ></a>
+                        </li>
+                        <li class="mt-2">
+                          <a
+                            href="shop-cart.html"
+                            class="btn btn-icon btn-pills btn-soft-warning"
+                            ><i data-feather="shopping-cart" class="icons"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="card-body content pt-4 p-2">
+                      <a
+                        href="curly-drycatfood-product-1.html"
+                        class="color1 product-name h6"
+                        >غذای خشک درمانی گربه هیلز
+                      </a>
+                      <div class="d-flex justify-content-between mt-1">
+                        <h6 class="color small fst-italic mb-0 mt-1">
+                          2,950,00 تومان
+                        </h6>
+                        <ul class="list-unstyled text-warning mb-0">
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                          <li class="list-inline-item">
+                            <i class="mdi mdi-star"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--end col-->
+
+                <!-- PAGINATION START -->
+                <div class="col-12 mt-4 pt-2">
+                  <ul class="pagination justify-content-center mb-0">
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="javascript:void(0)"
+                        aria-label="Previous"
+                        ><i class="mdi mdi-arrow-left"></i> قبلی
+                      </a>
+                    </li>
+                    <li class="page-item active">
+                      <a class="page-link" href="javascript:void(0)">1</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="javascript:void(0)">2</a>
+                    </li>
+                    <li class="page-item">
+                      <a class="page-link" href="javascript:void(0)">3</a>
+                    </li>
+                    <li class="page-item">
+                      <a
+                        class="page-link"
+                        href="javascript:void(0)"
+                        aria-label="Next"
+                        >بعدی <i class="mdi mdi-arrow-right"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+                <!--end col-->
+                <!-- PAGINATION END -->
+              </div>
+              <!--end row-->
+            </div>
+            <!--end col-->
+          </div>
+          <!--end row-->
+        </div>
+        <!--end container-->
+      </section>
+      <!--end section-->
+      <!-- End Products -->
+    </main>
+    <!-- end-main -->
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg-3 mb-0 mb-md-4 pb-0 pb-md-2">
+            <div>
+              <a class="logo" href="curly-petshop.html">
+                <img
+                  src="images/petshop/logo1-petshop.svg"
+                  class="logo-image"
+                  alt="logo-image"
+                />
+                <span>Curly PetShop</span>
+              </a>
+            </div>
+            <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i data-feather="facebook" class="fea icon-sm fea-social"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i
+                    data-feather="instagram"
+                    class="fea icon-sm fea-social"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i data-feather="twitter" class="fea icon-sm fea-social"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" class="rounded"
+                  ><i data-feather="linkedin" class="fea icon-sm fea-social"></i
+                ></a>
+              </li>
+            </ul>
+            <!--end icon-->
+            <form action="">
+              <label for="search-footer" class="form-label doctor-title"
+                >هر چی میخوای برای پت قشنگت از اینجا پیداش شد</label
+              >
+              <input
+                type="search"
+                class="form-control"
+                placeholder="جستجو کنید..."
+              />
+            </form>
+            <div class="d-flex justify-content-center">
+              <img src="images/petshop/torob_guarantee_hologram.svg" alt="" />
+              <img src="images/petshop/site.png" alt="" />
+            </div>
+          </div>
+          <!--end col-->
+
+          <div class="col-3 col-lg-2 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h5 class="text-light footer-head">ارتباطات</h5>
+            <ul class="list-unstyled footer-list mt-4">
+              <li>
+                <a href="curly-petshop-about-us.html" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> درباره ما
+                </a>
+              </li>
+              <li>
+                <a href="page-services.html" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> خدمات
+                </a>
+              </li>
+              <li>
+                <a href="curly-petshop-contact-us.html" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> تماس با ما
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--end col-->
+
+          <div class="col-3 col-lg-2 mt-4 mt-sm-0 pt-2 pt-sm-0">
+            <h5 class="text-light footer-head">لینک های مفید</h5>
+            <ul class="list-unstyled footer-list mt-4">
+              <li>
+                <a href="page-terms.html" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> غذای سگ
+                </a>
+              </li>
+              <li>
+                <a href="curly-drycatfood.html"
+                  ><i class="uil uil-angle-left-b me-1"></i> غذای گربه
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> سرگرمی
+                </a>
+              </li>
+              <li>
+                <a href="cruly-petshop-blog.html" class="text-foot"
+                  ><i class="uil uil-angle-left-b me-1"></i> بلاگ
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--end col-->
+          <div class="col-12 col-lg-5 mb-0 mb-md-4 pb-0 pb-md-2">
+            <p class="text-justify mt-5 mt-lg-0 comment-footer">
+              پت شاپ فرفری، غذا، محصولات، لوازم ضروری و نگهداری سگ و گربه را با
+              بهترین قیمت و کیفیت عرضه می‌نماید. در فروشگاه فرفری بستر خرید
+              آنلاین محصولات متنوع و گسترده پت به صورت مستقیم و بدون واسطه همراه
+              با پرداخت امن و ارسال فوری برای شما فراهم گردیده است. ما اینجا
+              هستیم تا با مشاوره صحیح و ارائه راه حل های به‌موقع، شما را در
+              انتخاب غذای خشک، غذای مرطوب، غذای درمانی و یا تشویقی سگ و گربه خود
+              راهنمایی نماییم. محصولات پت شاپ فرفری همگی وارداتی، اصل و اورجینال
+              از برندهای معتبر و به‌روز دنیا هستند. برندهای رویال کنین، هیلز،
+              پروپلن، استوزی، تریکسی، جیم کت، وینستون، هپی داگ، نوتری، بوش و
+              جوسرا نمونه‌هایی از این برندهای محبوب و پرفروش پت شاپ هستند.
+            </p>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <footer class="footer footer-bar">
+      <div class="container-fluid text-center">
+        <div class="row align-items-center">
+          <div class="col-12">
+            <div class="text-sm-start">
+              <p class="mb-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                تمامی حقوق این سایت متعلق به سایت curly petshop می باشد.
+              </p>
+            </div>
+          </div>
+          <!--end col-->
+        </div>
+        <!--end row-->
+      </div>
+      <!--end container-->
+    </footer>
+    <!--end footer-->
+    <!-- Footer End -->
+    <!-- Back to top -->
+    <a
+      href="#"
+      onclick="topFunction()"
+      id="back-to-top"
+      class="btn btn-icon back-to-top color2"
+      ><i data-feather="arrow-up" class="icons"></i
+    ></a>
+    <!-- Back to top -->
+
+    <!-- Wishlist Popup Start -->
+    <div
+      class="modal fade"
+      id="wishlist"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content rounded shadow-lg border-0 overflow-hidden">
+          <div class="modal-body py-5">
+            <div class="text-center">
+              <div
+                class="icon d-flex align-items-center justify-content-center bg-soft-danger rounded-circle mx-auto"
+                style="height: 95px; width: 95px"
+              >
+                <h1 class="mb-0">
+                  <i class="uil uil-heart-break align-middle"></i>
+                </h1>
+              </div>
+              <div class="mt-4">
+                <h4>لیست خواسته های شما خالی است.</h4>
+                <p class="text-muted">
+                  اولین درخواست لیست خواسته های خود را ایجاد کنید...
+                </p>
+                <div class="mt-4">
+                  <a href="javascript:void(0)" class="btn button-icon-1"
+                    >+ لیست خواسته های جدید ایجاد کنید</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Wishlist Popup End -->
+
+    <!-- javascript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- SLIDER -->
+    <script src="js/tiny-slider.js"></script>
+    <!-- Icons -->
+    <script src="js/feather.min.js"></script>
+    <!-- Switcher -->
+    <script src="js/switcher.js"></script>
+    <!-- Main Js -->
+    <script src="js/plugins.init.js"></script>
+    <!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+    <script src="js/app.js"></script>
+    <!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+  </body>
+</html>
